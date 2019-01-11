@@ -1,12 +1,17 @@
 #include <iostream>
-using namespace int
+using namespace std;
 
 int main()
 {
-    int A = 1
-    int B = 2
-    while (B <= 69)
+    double sum = 0;
+    double A = 2;
+    while (A <= 69)
     {
-        (A/B)
+        sum += 1/A;
+        A++;
     }
+    
+    cout << sum;
+
+    return 0;
 }
